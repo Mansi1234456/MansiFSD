@@ -1,0 +1,85 @@
+/* Reset some default margin and padding */
+body, h4, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a global font and set background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header with a background color and center align text */
+h4 {
+    background-color: #f3df9e;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the list items */
+ul, ol {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table headers and cells */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: #d2b48c; /* Light brown background color */
+    color: black;
+}
+
+/* Style the table header */
+th {
+    background-color: #ece6e1;
+}
+
+/* Style the image */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style block and inline elements */
+p, div, span {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+/* Style div elements with specific classes */
+.ABC {
+    background-color: #f3ddbf;
+}
+
+.def {
+    background-color: rgb(243, 235, 159);
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
+
+/* Media query for further responsiveness */
+@media screen and (max-width: 480px) {
+    img {
+        max-width: 80%;
+    }
+}
